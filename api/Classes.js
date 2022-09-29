@@ -42,6 +42,7 @@ router.get("/get/:professeurId", (req, res) => {
     });
 });
 
+
 //add student to class
 router.post("/add/student", (req, res) => {
   console.log("A request has been made on /add/student api...");
